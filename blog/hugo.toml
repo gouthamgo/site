@@ -1,0 +1,34 @@
+baseURL = "http://example.org/" # Replace with your actual base URL
+languageCode = "en-us"
+title = "My Blog"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"
+  disableThemeMods = false
+  homeInfoParams = { Title = "Welcome to My Blog", Content = "My blog about AI & Development." }
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
